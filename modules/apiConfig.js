@@ -3,7 +3,7 @@ async function fetchData () {
     const { Octokit } = await import('@octokit/core')
 
     const octokit = new Octokit({
-      auth: ''
+
     })
 
     const response = await octokit.request(
